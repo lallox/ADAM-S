@@ -1,0 +1,192 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sides{
+    background-color: #28a745;
+}
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-color: #28a745;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background-color: #ffcc29;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.hero .btn:hover {
+    background-color: #ffc107;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+    background-color: #24963e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%281, 1, 1, 0.6%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    filter: invert(1);
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: white !important;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #d4edda !important;
+}
+
+@media (max-width: 768px) {
+    .nav-link {
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .navbar-collapse {
+        background-color: #28a745;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+}
+
+footer {
+    background-color: #28a745; /* Green background */
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+    font-size: 1rem;
+    border-top: 3px solid #fff; /* Adding a border at the top */
+}
+
+footer .footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; /* To make sure it wraps on smaller screens */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .footer-section {
+    margin: 20px;
+    text-align: center;
+}
+
+footer .footer-section h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+footer .footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer .footer-section ul li {
+    margin-bottom: 10px;
+}
+
+footer .footer-section a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer .footer-section a:hover {
+    color: #ffc107;
+}
+
+footer .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+footer .social-links a {
+    font-size: 1.5rem;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+footer .social-links a:hover {
+    color: #ffc107;
+}
+
+footer .footer-bottom {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 768px) {
+    footer .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .footer-section {
+        margin-bottom: 20px;
+    }
+
+    footer .social-links {
+        gap: 10px;
+    }
+}
+.hover-image {
+    opacity: 0; 
+}
+
+#succulents .container .row {
+    margin-bottom: 0;  
+}
+
+#succulents .container .row .col-md-8 .card {
+    margin-top: -410px; 
+}
